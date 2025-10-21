@@ -64,9 +64,9 @@ document.getElementById('submit').addEventListener('click', () => {
 	}
 	localStorage.setItem('score', score);
 	if(score > 0)
-	document.getElementById('score').textContent = `Your score is ${score} out of 5`;
+	document.getElementById('score').textContent = `Your score is ${score} out of 5.`;
 	else
-	document.getElementById('score').textContent = `Your score is out of 5`;
+	document.getElementById('score').textContent = `Your score is out of 5.`;
 });
 
 renderQuestions();
